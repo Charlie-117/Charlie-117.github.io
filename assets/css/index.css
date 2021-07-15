@@ -3,12 +3,36 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center;
-    background-size:cover;
+    background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) center center;
+    background-size:400% 400%;
     width:100vw;
     height:100vh;
     overflow:hidden;
     font-family: 'Josefin Sans', sans-serif;
+    -webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 #loading {
     width: 100vw;
