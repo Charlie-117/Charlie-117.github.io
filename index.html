@@ -26,6 +26,7 @@
     </div>
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
     <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">projects</a>
+    <a id="resume" onclick="showresume()" class="animated fadeIn" style="animation-delay:2.2s;">resume</a>
     <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h1>Tony Jose</h1>
@@ -33,6 +34,7 @@
         <div id="menu">
             <a onclick="showabout()">about</a>
             <a onclick="showwork()">work</a>
+            <a onclick="showresume()">resume</a>
             <a onclick="showcontact()">contact</a>
         </div>
         <table>
@@ -46,13 +48,38 @@
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>Projects.</h1>
+        <h1>projects.</h1>
         <section>
           <div class="sbox left" ><a href="https://www.aicp-rom.com/"><h2>AICP device maintainer</h2></a><p>Co-maintainer for Motorola's msm8916 family of devices (merlin, osprey, harpia, lux), Check out my contributions on <a href="https://gerrit.aicp-rom.com/q/owner:gmoto1179%2540gmail.com+OR+author:gmoto1179%2540gmail.com">gerrit</a></div>
           <div class="sbox right"><a href="https://github.com/Charlie-117/merlin_DualSpeaker_mod"><h2>Stereo speaker mod</h2></a><p>A Magisk module for merlin which adds standard speaker capabilities to the ear-piece speaker</p></div>
           <div class="sbox left"><a href="https://github.com/Charlie-117/Charlie-117.github.io"><h2>This website</h2></a><p>It is based on a template by <a href="https://imfunniee.github.io">@imfunniee</a>, over which changes have been made. Check out the original template <a href="https://imfunniee.github.io/template/3/">here</a></div>
-          <div class="sbox right"><h2>More soon...</h2><p>I am always looking forward to contribute to other projects and maintaining my own</p></div>  
+          <div class="sbox right"><a href="https://sourceforge.net/projects/charlie-android/"><h2>Releases on Sourceforge</h2></a><p>Custom ROMs, Recoveries, Bootlogos and much more for merlin</p></div>
+          <div class="sbox center"><h2>More soon...</h2><p>I am always looking forward to contribute to other projects and maintaining my own</p></div>  
         </section>
+    </div>
+    <div id="resume_container" class="container">
+        <div onclick="closeresume()"><i class="fas fa-angle-right"></i></div>
+        <h1>resume.</h1>
+         <div class="rbox">
+         <img src="assets/img/profile.png" alt="Tony Jose" align="right">
+         <h1>Tony Jose</h1>
+         <p align="left">
+         BCA student, aspiring to become an AOSP developer/Systems Administrator.
+         <h2>Education:</h2>
+         BCA: Kerala University (Ongoing) [2020-2023]<br>
+         12th: PCMB, Kerala DHSE (93.4%) [2018-2020] <br>
+         10th: CBSE (81.2%) [2018]<br>
+         <br>
+         <h2>Skills:</h2>
+         Programming Languages: C, C++, Python, HTML, CSS<br>
+         Bash and Python scripting<br>
+         Revision control tools, Collaborative code review tools<br>
+         Knowledge about *nix systems<br>
+         AOSP development<br>
+         <h2>Certifications</h2>
+         <a href="https://drive.google.com/file/d/133_w8IDMmfYQQb--dfVfrUFuNtzlG3Q5/view?usp=sharing">Python Training by IIT Bombay</a><br>
+         </p>
+         </div>
     </div>
     <div id="about_container" class="container">
             <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
@@ -82,7 +109,7 @@
             </section>
         </div>
         <div id="footer">
-            Template by <br> <a href="https://imfunniee.github.io">imfunniee</a>
+            Template by &nbsp; &nbsp; Customized by <br> <a href="https://imfunniee.github.io">imfunniee</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#">Tony</a> &nbsp; &nbsp; &nbsp;
         </div>
     <script src="assets/js/index.js" type="text/javascript"></script>
     <script src="assets/js/particles.js"></script>

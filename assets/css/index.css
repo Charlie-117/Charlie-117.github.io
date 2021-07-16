@@ -135,6 +135,26 @@ body {
     color:#fff;
     position:fixed;
     right:0;
+    top:150px;
+    bottom:40vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    z-index:4;
+    transition:0.4s ease-in-out;
+    border-radius:0px 0px 100px 100px;
+}
+#resume {
+    width:10vw;
+    height:10vw;
+    text-align:center;
+    font-size:25px;
+    transform:rotate(90deg);
+    background:transparent;
+    color:#fff;
+    position:fixed;
+    right:0;
+    top:315px;
     bottom:40vh;
     display:flex;
     flex-direction: column;
@@ -165,6 +185,10 @@ body {
     cursor:pointer;
 }
 #work:hover {
+    background:rgba(255,50,50,0.9);
+    cursor:pointer;
+}
+#resume:hover {
     background:rgba(255,50,50,0.9);
     cursor:pointer;
 }
@@ -240,11 +264,31 @@ body {
 .sbox.left {
     float:left;
 }
+.sbox.center {
+    float:left;
+    width:1100px;
+}
 .sbox a{
     text-decoration:none;
     color:white;
+} a:hover{
+    color:#f00606;
 }
-.sbox a:hover{
+.rbox {
+    width:1000px;
+    border:2px solid #f00606;
+    border-radius:15px;
+    padding:50px;
+    float:center;
+}
+.rbox img{
+    width:300px;
+    height:300px;
+}
+.rbox a{
+    text-decoration:none;
+    color:white;
+} a:hover{
     color:#f00606;
 }
 #used div{
@@ -385,6 +429,9 @@ body {
         display:none;
     }
     #work {
+        display:none;
+    }
+    #resume {
         display:none;
     }
     #footer {

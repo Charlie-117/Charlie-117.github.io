@@ -26,6 +26,20 @@ function closework(){
         $("#work_container").css("display","none");
     },800);
 }
+function showresume(){
+    $("#resume_container").css("display","inherit");
+    $("#resume_container").addClass("animated slideInRight");
+    setTimeout(function(){
+        $("#resume_container").removeClass("animated slideInRight");
+    },800);
+}
+function closeresume(){
+    $("#resume_container").addClass("animated slideOutRight");
+    setTimeout(function(){
+        $("#resume_container").removeClass("animated slideOutRight");
+        $("#resume_container").css("display","none");
+    },800);
+}
 function showcontact(){
     $("#contact_container").css("display","inherit");
     $("#contact_container").addClass("animated slideInUp");
