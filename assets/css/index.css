@@ -191,6 +191,19 @@ body {
     cursor: pointer;
     color:rgb(255, 50, 50);
 }
+.contact {
+    color:#fff;
+    font-size:22px;
+    border-radius:50%;
+    transition:0.4s ease-in-out;
+    margin:0px 8px;
+    text-align:center;
+    text-decoration:none; 140000
+}
+.contact:hover { 
+    cursor: pointer;
+    color:rgb(155, 50, 50);
+}
 .container {
     width:90vw;
     height:90vh;
