@@ -227,6 +227,26 @@ body {
 .container section {
     margin:8vh 0px;
 }
+.sbox {
+    width:450px;
+    height:200px;
+    border:2px solid #f00606;
+    border-radius:15px;
+    padding:50px;
+}
+.sbox.right {
+    float:right;
+}
+.sbox.left {
+    float:left;
+}
+.sbox a{
+    text-decoration:none;
+    color:white;
+}
+.sbox a:hover{
+    color:#f00606;
+}
 #used div{
     font-size:14px !important;
     display:inline-block;
